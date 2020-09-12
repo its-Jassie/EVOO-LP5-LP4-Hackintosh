@@ -100,6 +100,22 @@ Install and open the Tongfang Hackintosh Utility.app and under the Tools tab do 
 
 Well you could replace the intel WiFI card that comes with our laptop to a support Broadcom WiFi adapter (DW1830, DW1860, DW1820A, maybe some more) You may also be able to get Handoff/Airdrop/WirelessSidecar working this way.
 
+## Undervolting like we do in Windows(ThrottleStop) LP5 ONLY MAY NOT WORK ON LP4 or LP6
+
+[VoltageShift](https://sitechprog.blogspot.com/2017/06/voltageshift.html) is the answer! Its basically a command line undervolting tool for MacOS. Grab the kext from the download link and place it in a folder together where it can stay permanatly. I put mine in the applications folder.
+
+There is a codesig issue with the other file so we have to replace it with one that someone stripped the codesig out of for us [here](https://disk.yandex.com/d/l2cxoKNB8KgVVg). Go ahead and place the voltageshift file in Applications(or wherever you put the voltageshift.kext)
+
+cd into the directory where both files are (ex: `cd /Applications`). Now we need to set some files permissions with the following two seperate commands
+`chmod +x voltageshift` (should turn the voltageshift file into an exec file)
+`sudo chown -R root:wheel build/Release/VoltageShift.kext`
+
+Then set the following offset and use your computer for a few minutes to ensure there is no crash,
+`./voltageshift offset -250 -75.2 -119.1 -75.2`
+
+If your Hackintosh is running well for a few minutes then you can set voltageshift to run at startup and then you are set!
+`./voltageshift buildlaunchd -250 -75.2 -119.1 -75.2 0 0 20`
+
 ## Troubleshooting
 WIP
 

@@ -102,9 +102,11 @@ Well you could replace the intel WiFI card that comes with our laptop to a suppo
 
 ## Undervolting like we do in Windows(ThrottleStop) LP5 ONLY MAY NOT WORK ON LP4 or LP6
 
-[VoltageShift](https://sitechprog.blogspot.com/2017/06/voltageshift.html) is the answer! Its basically a command line undervolting tool for MacOS. Grab the kext from the download link and place it in a folder together where it can stay permanatly. I put mine in the applications folder.
+[VoltageShift](https://sitechprog.blogspot.com/2017/06/voltageshift.html) is the answer! Its basically a command line undervolting tool for MacOS. 
 
-There is a codesig issue with the other file so we have to replace it with one that someone stripped the codesig out of for us [here](https://disk.yandex.com/d/l2cxoKNB8KgVVg). Go ahead and place the voltageshift file in Applications(or wherever you put the voltageshift.kext)
+Grab the kext from the download link and place it in a folder where it can stay permanatly. I put mine in the applications folder.
+
+There is a codesig issue with the other file in the download (the one that isnt a kext) so we have to replace it with one that someone stripped the codesig out of for us [here](https://disk.yandex.com/d/l2cxoKNB8KgVVg). Go ahead and place the voltageshift file in Applications folder (or wherever you put the voltageshift.kext so they are together)
 
 cd into the directory where both files are (ex: `cd /Applications`). Now we need to set some files permissions with the following two seperate commands
 `chmod +x voltageshift` (should turn the voltageshift file into an exec file)

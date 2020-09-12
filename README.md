@@ -127,7 +127,7 @@ WIP
 
 ## That's all folks!
 
-Thats all I have so far. I may add a troubleshooting guide here soon (mostly just explaining how to enable verbose booting) and also a slightly modified guide to install MacOS exclusivley without Windows to a Wiki page in this repository. I may also make an undervolting guide for MacOS to match what ThrottleStop does on Windows
+Thats all I have so far. I may add a troubleshooting guide here soon (mostly just explaining how to enable verbose booting) and also a slightly modified guide to install MacOS exclusivley without Windows to a Wiki page in this repository. ~~I may also make an undervolting guide for MacOS to match what ThrottleStop does on Windows~~
 
 Other than that a lot of people may be wondering why I even bothered to do all this if I can't use the 1660ti on MacOS and the answer is mostly because it's fun but also because I wanted Sidecar support to use my iPad as a drawing tablet so I can teach myself Adobe Animate.
 

@@ -109,13 +109,17 @@ Grab the kext from the download link and place it in a folder where it can stay 
 There is a codesig issue with the other file in the download (the one that isnt a kext) so we have to replace it with one that someone stripped the codesig out of for us [here](https://disk.yandex.com/d/l2cxoKNB8KgVVg). Go ahead and place the voltageshift file in Applications folder (or wherever you put the voltageshift.kext so they are together)
 
 cd into the directory where both files are (ex: `cd /Applications`). Now we need to set some files permissions with the following two seperate commands
+
 `chmod +x voltageshift` (should turn the voltageshift file into an exec file)
+
 `sudo chown -R root:wheel build/Release/VoltageShift.kext`
 
 Then set the following offset and use your computer for a few minutes to ensure there is no crash,
+
 `./voltageshift offset -250 -75.2 -119.1 -75.2`
 
 If your Hackintosh is running well for a few minutes then you can set voltageshift to run at startup and then you are set!
+
 `./voltageshift buildlaunchd -250 -75.2 -119.1 -75.2 0 0 20`
 
 ## Troubleshooting

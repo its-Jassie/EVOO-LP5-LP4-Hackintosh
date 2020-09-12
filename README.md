@@ -1,5 +1,5 @@
 #  Evoo LP4 and LP5 Hackintosh Dual Boot Install Guide
-A guide to install MacOS alongside Windows on the EVOO LP5 probably also LP4 and possibly help with other models
+A guide to install MacOS alongside Windows on the EVOO LP5 probably also LP4 and possibly help with other models from the creator of the [definitive guide for LP5 heat, battery, and power managment](https://www.reddit.com/r/EVOOGaming/comments/gomcd2/the_definitive_guide_for_lp5_heat_battery_and/?utm_source=share&utm_medium=web2x&context=3) guide (windows)
 
 ## What is not working
 
@@ -93,6 +93,25 @@ Boot into your MacOS install and connect the ethernet one last time. Download th
 Install and open HeliPort to get that sweet sweet WiFi and you can finally unplug your Mac from the router
 
 Install and open the Tongfang Hackintosh Utility.app and under the Tools tab do `Fix Sleep` and `Install Fn Daemon`
+
+
+
+## Looking for a better WiFi solution?
+
+Well you could replace the intel WiFI card that comes with our laptop to a support Broadcom WiFi adapter (DW1830, DW1860, DW1820A, maybe some more) You may also be able to get Handoff/Airdrop/WirelessSidecar working this way.
+
+## Troubleshooting
+WIP
+
+## That's all folks!
+
+Thats all I have so far. I may add a troubleshooting guide here soon (mostly just explaining how to enable verbose booting) and also a slightly modified guide to install MacOS exclusivley without Windows to a Wiki page in this repository. I may also make an undervolting guide for MacOS to match what ThrottleStop does on Windows
+
+Other than that a lot of people may be wondering why I even bothered to do all this if I can't use the 1660ti on MacOS and the answer is mostly because it's fun but also because I wanted Sidecar support to use my iPad as a drawing tablet so I can teach myself Adobe Animate.
+
+In any case thanks for reading! I hope you are able to enjoy MacOS on your EVOO as well as I do. I am amazed by how much usage I have gotten out of this cheap Walmart gaming laptop and I can't wait to see what I can do with it next
+
+Big thanks to u\khanofkhronos for showing me the Tongfang utility over on the r/EVOOGaming subreddit!
 
  
  

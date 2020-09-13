@@ -102,7 +102,7 @@ Make sure HeliPort opens at login because you will need it running to get WiFi
 
 Well you could replace the intel WiFI card that comes with our laptop to a support Broadcom WiFi adapter (DW1830, DW1860, DW1820A, maybe some more) You may also be able to get Handoff/Airdrop/WirelessSidecar working this way.
 
-## Undervolting like we do in Windows(ThrottleStop) LP5 ONLY MAY NOT WORK ON LP4 or LP6
+## Undervolting for the LP5
 
 [VoltageShift](https://sitechprog.blogspot.com/2017/06/voltageshift.html) is the answer! Its basically a command line undervolting tool for MacOS. 
 
@@ -123,6 +123,8 @@ Then set the following offset and use your computer for a few minutes to ensure 
 If your Hackintosh is running well for a few minutes then you can set voltageshift to run at startup and then you are set!
 
 `./voltageshift buildlaunchd -250 -75.2 -119.1 -75.2 0 0 20`
+
+> Note: these values will likely not work for the LP4 or LP6 but can be brought over from Throttlestop if you already have that setup in Windows. The values are `./voltageshift offset <CPU> <GPU> <CPUCache> <SystemAgent> 0 0 <time>` where time is how often you want to check to make sure undervolt is applied (this can stay at 20 for all models).
 
 ## Troubleshooting
 WIP

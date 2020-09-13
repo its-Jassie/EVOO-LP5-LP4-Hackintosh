@@ -96,7 +96,7 @@ Install and open HeliPort to get that sweet sweet WiFi and you can finally unplu
 
 Install and open the Tongfang Hackintosh Utility.app and under the Tools tab do `Fix Sleep` and `Install Fn Daemon`
 
-
+Make sure HeliPort opens at login because you will need it running to get WiFi
 
 ## Looking for a better WiFi solution?
 

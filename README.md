@@ -58,6 +58,8 @@ An ethernet connection for initial installation
  
  Copy the contents of Tongfang_USB(BOOT and OC) to the EFI folder in the BOOT usb drive that we made in step 2 and now you should be ready to install.
  
+ > Note: if there are already BOOT and OC folders within EFI in the BOOT usb drive then delete them before copying!
+ 
  # Step 4: Install MacOS
  
  Press F12 while booting to enter the MacOS installer we just made. Choose MacOS base isntall system and wait a few minutes for the progress bar to appear then load. If it does not load then see troubleshooting section(WIP).

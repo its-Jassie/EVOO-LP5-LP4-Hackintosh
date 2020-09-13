@@ -3,8 +3,8 @@ A guide to install MacOS alongside Windows on the EVOO LP5 probably also LP4 and
 
 ## What is not working
 
-- 1660ti (MacOS does not support this hardware)
-- HDMI/mini DP (these ports are connected directly to the 1660ti which is disabled)
+- Nvidia GPU (MacOS does not support this hardware)
+- HDMI/mini DP (these ports are connected directly to the nvidia GPU which is disabled)
 - AirDrop & Handoff & Wireless Sidecar (Would need a native MacOS WiFi card to work)
 - SD Card reader
 - Turbo button
